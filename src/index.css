@@ -198,3 +198,45 @@ background:#143D2A;
 color:white;
 
 }
+
+.progress{
+height:10px;
+background:#ECE6DA;
+border-radius:20px;
+overflow:hidden;
+margin:15px 0;
+}
+
+.progress-fill{
+height:100%;
+background:#143D2A;
+border-radius:20px;
+}
+
+.card{
+margin:18px;
+padding:22px;
+background:white;
+border-radius:22px;
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+h1,h2{
+color:#143D2A;
+}
+
+section{
+padding:0;
+}
+
+.page{
+padding-bottom:40px;
+}
+
+.card p{
+line-height:1.6;
+}
+
+.card button{
+margin-top:18px;
+}

@@ -1,19 +1,15 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Landing from "./pages/Landing";
-
-function Dashboard() {
-  return (
-    <main>
-      <h1>Dashboard</h1>
-    </main>
-  );
-}
+import Dashboard from "./pages/Dashboard";
 
 function ChallengeDay() {
   return (
-    <main>
-      <h1>Day 12</h1>
-    </main>
+    <div className="page">
+      <section className="card">
+        <h1>Day 12</h1>
+        <p>Challenge page coming next...</p>
+      </section>
+    </div>
   );
 }
 

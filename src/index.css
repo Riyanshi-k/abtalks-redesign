@@ -109,3 +109,393 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* ================================
+   ABTALKS LANDING PAGE
+================================ */
+
+.landing-page {
+  min-height: 100vh;
+  background: #f6f0e7;
+  color: #2d211b;
+  overflow: hidden;
+}
+
+.landing-nav {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 22px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.4px;
+}
+
+.brand-mark {
+  width: 31px;
+  height: 31px;
+  border-radius: 9px;
+  background: #3a2920;
+  color: #f6f0e7;
+  display: grid;
+  place-items: center;
+  font-family: "Playfair Display", serif;
+}
+
+.nav-login {
+  border: 1px solid #cdbfaf;
+  background: transparent;
+  color: #3a2920;
+  padding: 9px 16px;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.hero {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 70px 24px 50px;
+  text-align: center;
+}
+
+.eyebrow,
+.section-kicker {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  color: #a75b3f;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #eee2d3;
+  padding: 8px 12px;
+  border-radius: 100px;
+}
+
+.eyebrow-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #b85f40;
+}
+
+.hero h1 {
+  margin-top: 25px;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(44px, 8vw, 78px);
+  line-height: 0.98;
+  letter-spacing: -2.5px;
+}
+
+.hero h1 span {
+  color: #a75b3f;
+}
+
+.hero-copy {
+  max-width: 610px;
+  margin: 25px auto 0;
+  color: #705f53;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.primary-button {
+  margin-top: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 0;
+  background: #3a2920;
+  color: #fffaf3;
+  padding: 15px 21px;
+  border-radius: 13px;
+  font-weight: 700;
+  box-shadow: 0 8px 20px rgba(58, 41, 32, 0.14);
+  transition: transform 0.2s ease;
+}
+
+.primary-button:hover {
+  transform: translateY(-2px);
+}
+
+.micro-copy {
+  margin-top: 12px;
+  color: #9a887b;
+  font-size: 12px;
+}
+
+.streak-card {
+  max-width: 650px;
+  margin: 20px auto 100px;
+  background: #fffaf3;
+  border: 1px solid #e4d7c9;
+  border-radius: 24px;
+  padding: 25px;
+  box-shadow: 0 18px 50px rgba(73, 48, 35, 0.08);
+}
+
+.streak-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #a75b3f;
+}
+
+.streak-top h2 {
+  margin-top: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 27px;
+}
+
+.flame {
+  width: 45px;
+  height: 45px;
+  border-radius: 14px;
+  background: #f0ddd0;
+  color: #a75b3f;
+  display: grid;
+  place-items: center;
+}
+
+.journey {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 34px 10px 27px;
+}
+
+.journey-line {
+  position: absolute;
+  left: 13%;
+  right: 13%;
+  top: 16px;
+  height: 2px;
+  background: #d9c8b9;
+}
+
+.journey-step {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.step-circle {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: #e5d7ca;
+  color: #8e7868;
+  display: grid;
+  place-items: center;
+}
+
+.completed .step-circle,
+.active .step-circle {
+  background: #3a2920;
+  color: #fffaf3;
+}
+
+.active .step-circle {
+  background: #a75b3f;
+}
+
+.proof-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.proof-item {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  background: #f5ede3;
+  padding: 14px;
+  border-radius: 14px;
+}
+
+.proof-item svg {
+  color: #6e594b;
+}
+
+.proof-item div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.proof-item strong {
+  font-size: 13px;
+}
+
+.proof-item span {
+  font-size: 10px;
+  color: #917e70;
+}
+
+.why-section {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 24px 100px;
+}
+
+.why-section h2 {
+  margin-top: 12px;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(36px, 6vw, 58px);
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+}
+
+.why-section h2 span {
+  color: #a75b3f;
+}
+
+.benefit-list {
+  margin-top: 45px;
+  border-top: 1px solid #dacabd;
+}
+
+.benefit {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 20px;
+  padding: 25px 0;
+  border-bottom: 1px solid #dacabd;
+}
+
+.benefit > span {
+  color: #b58e79;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.benefit h3 {
+  font-size: 17px;
+}
+
+.benefit p {
+  margin-top: 5px;
+  color: #79685c;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.final-cta {
+  margin: 0 24px 70px;
+  padding: 65px 25px;
+  text-align: center;
+  border-radius: 28px;
+  background: #3a2920;
+  color: #fffaf3;
+}
+
+.final-cta > span {
+  font-size: 10px;
+  letter-spacing: 1.8px;
+  color: #d9bbaa;
+}
+
+.final-cta h2 {
+  margin-top: 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 43px;
+}
+
+.final-cta .primary-button {
+  background: #c87552;
+}
+
+footer {
+  max-width: 1180px;
+  margin: auto;
+  padding: 25px 24px 40px;
+  display: flex;
+  justify-content: space-between;
+  color: #927e70;
+  font-size: 12px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .landing-nav {
+    padding: 17px 18px;
+  }
+
+  .hero {
+    padding: 52px 20px 35px;
+  }
+
+  .hero h1 {
+    font-size: 46px;
+    letter-spacing: -1.8px;
+  }
+
+  .hero-copy {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .primary-button {
+    width: 100%;
+  }
+
+  .streak-card {
+    margin: 15px 18px 75px;
+    padding: 20px;
+    border-radius: 21px;
+  }
+
+  .streak-top h2 {
+    font-size: 23px;
+  }
+
+  .proof-row {
+    grid-template-columns: 1fr;
+  }
+
+  .why-section {
+    padding: 0 20px 75px;
+  }
+
+  .why-section h2 {
+    font-size: 38px;
+  }
+
+  .final-cta {
+    margin: 0 18px 50px;
+    padding: 50px 20px;
+  }
+
+  .final-cta h2 {
+    font-size: 38px;
+  }
+
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

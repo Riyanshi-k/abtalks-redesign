@@ -1,153 +1,102 @@
+import "./Landing.css";
+
 function Landing() {
   return (
-    <div className="landing-page">
+    <div className="page landing">
+
       <nav className="navbar">
-        <div className="brand">
-          <span className="brand-mark">A</span>
+        <div className="logo">
+          <div className="logo-box">A</div>
           <span>ABTalks</span>
         </div>
 
-        <button className="nav-login">Log in</button>
+        <button className="secondary-btn">
+          Log in
+        </button>
       </nav>
 
-      <main>
-        <section className="hero">
-          <div className="eyebrow">
-            <span className="eyebrow-dot"></span>
-            60 DAYS. ONE BUILD EVERY DAY.
-          </div>
+      <section className="hero">
 
-          <h1>
-            Build in public.
-            <br />
-            <span>Become impossible to ignore.</span>
-          </h1>
+        <p className="eyebrow">
+          60 DAYS • BUILD DAILY • STAY CONSISTENT
+        </p>
 
-          <p className="hero-copy">
-            A 60-day coding challenge for Indian college students. Build
-            something every day, prove your work, and turn consistency into a
-            portfolio recruiters can see.
-          </p>
+        <h1 className="title">
+          Build in public.
+          <br />
+          <span className="green">
+            Become impossible
+          </span>
+          <br />
+          to ignore.
+        </h1>
 
-          <button className="primary-button">
-            Start your 60-day journey →
-          </button>
+        <p className="subtitle">
+          India's most motivating coding challenge.
+        </p>
 
-          <p className="micro-copy">
-            No perfection required. Just show up tomorrow.
-          </p>
-        </section>
+        <button className="primary-btn">
+          Start Challenge →
+        </button>
 
-        <section className="streak-card">
-          <div className="streak-top">
-            <div>
-              <span className="card-label">YOUR DAILY PROOF</span>
-              <h2>One day at a time.</h2>
-            </div>
+      </section>
 
-            <div className="flame">🔥</div>
-          </div>
+      <section className="card streak-card">
 
-          <div className="journey">
-            <div className="journey-line"></div>
+        <h2>🔥 27 Day Streak</h2>
 
-            <div className="journey-step completed">
-              <div className="step-circle">✓</div>
-              <span>Build</span>
-            </div>
+        <p className="subtitle">
+          Keep your momentum alive.
+        </p>
 
-            <div className="journey-step completed">
-              <div className="step-circle">✓</div>
-              <span>Commit</span>
-            </div>
+      </section>
 
-            <div className="journey-step active">
-              <div className="step-circle">3</div>
-              <span>Share</span>
-            </div>
-          </div>
+      <section className="features">
 
-          <div className="proof-row">
-            <div className="proof-item">
-              <span className="proof-icon">GH</span>
+        <div className="card feature">
 
-              <div>
-                <strong>GitHub</strong>
-                <span>Show what you built</span>
-              </div>
-            </div>
+          <h2>💻</h2>
 
-            <div className="proof-item">
-              <span className="proof-icon">in</span>
+          <h3>GitHub Proof</h3>
 
-              <div>
-                <strong>LinkedIn</strong>
-                <span>Show that you did it</span>
-              </div>
-            </div>
-          </div>
-        </section>
+          <p>Daily commits build trust.</p>
 
-        <section className="why-section">
-          <p className="section-kicker">WHY 60 DAYS?</p>
+        </div>
 
-          <h2>
-            Consistency is a
-            <br />
-            <span>competitive advantage.</span>
-          </h2>
+        <div className="card feature">
 
-          <div className="benefit-list">
-            <div className="benefit">
-              <span>01</span>
+          <h2>💼</h2>
 
-              <div>
-                <h3>Build real proof</h3>
-                <p>
-                  Your GitHub tells a story instead of sitting empty.
-                </p>
-              </div>
-            </div>
+          <h3>LinkedIn Visibility</h3>
 
-            <div className="benefit">
-              <span>02</span>
+          <p>Share progress every day.</p>
 
-              <div>
-                <h3>Become visible</h3>
-                <p>
-                  Share your progress and let opportunities find you.
-                </p>
-              </div>
-            </div>
+        </div>
 
-            <div className="benefit">
-              <span>03</span>
+        <div className="card feature">
 
-              <div>
-                <h3>Make showing up a habit</h3>
-                <p>
-                  Small builds compound into serious progress.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+          <h2>🌱</h2>
 
-        <section className="final-cta">
-          <span>YOUR NEXT 60 DAYS START HERE.</span>
+          <h3>Grow Daily</h3>
 
-          <h2>Ready to build?</h2>
+          <p>Small progress compounds.</p>
 
-          <button className="primary-button">
-            Take the challenge →
-          </button>
-        </section>
-      </main>
+        </div>
 
-      <footer>
-        <span>ABTalks</span>
-        <span>60 days of showing up.</span>
-      </footer>
+      </section>
+
+      <section className="cta card">
+
+        <h2>Ready?</h2>
+
+        <button className="primary-btn">
+
+          Join Challenge →
+
+        </button>
+
+      </section>
+
     </div>
   );
 }

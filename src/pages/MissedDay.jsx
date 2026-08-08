@@ -1,7 +1,26 @@
-function MissedDay() {
-  return (
-    <div className="page day-page">
+import "./Day.css";
 
+function MissedDay() {
+  const completedDaysList = JSON.parse(
+    localStorage.getItem("completedDaysList") || "[]"
+  );
+
+  const completedDays = completedDaysList.length;
+
+  const totalDays = 60;
+
+  const remainingDays = Math.max(
+    0,
+    totalDays - completedDays
+  );
+
+  const day12Completed =
+    localStorage.getItem("day12Completed") === "true";
+
+  return (
+    <div>
+
+      {/* Header */}
       <section className="day-header">
 
         <a href="/dashboard" className="back-link">
@@ -25,6 +44,8 @@ function MissedDay() {
 
       </section>
 
+
+      {/* Recovery */}
       <section className="recovery-card">
 
         <div className="recovery-icon">
@@ -45,41 +66,83 @@ function MissedDay() {
           of rhythm.
         </p>
 
+
+        {/* Stats */}
         <div className="recovery-stats">
 
           <div>
-            <strong>11</strong>
-            <span>days completed</span>
+            <strong>
+              {completedDays}
+            </strong>
+
+            <span>
+              days completed
+            </span>
           </div>
 
-          <div>
-            <strong>1</strong>
-            <span>day missed</span>
-          </div>
 
           <div>
-            <strong>48</strong>
-            <span>days remaining</span>
+            <strong>
+              0
+            </strong>
+
+            <span>
+              days missed
+            </span>
+          </div>
+
+
+          <div>
+            <strong>
+              {remainingDays}
+            </strong>
+
+            <span>
+              days remaining
+            </span>
           </div>
 
         </div>
 
-        <a
-          href="/day/12"
-          className="mission-button"
-        >
-          Continue today's mission
-          <span>→</span>
-        </a>
+
+        {/* Action */}
+        {day12Completed ? (
+
+          <a
+            href="/dashboard"
+            className="mission-button"
+          >
+            Back to dashboard
+            <span>→</span>
+          </a>
+
+        ) : (
+
+          <a
+            href="/day/12"
+            className="mission-button"
+          >
+            Continue today's mission
+            <span>→</span>
+          </a>
+
+        )}
 
       </section>
 
+
+      {/* Direction */}
       <section className="direction-card">
 
-        <span className="direction-icon">✦</span>
+        <span className="direction-icon">
+          ✦
+        </span>
 
         <div>
-          <p className="small-text">A BETTER WAY TO THINK ABOUT IT</p>
+
+          <p className="small-text">
+            A BETTER WAY TO THINK ABOUT IT
+          </p>
 
           <h3>
             Progress isn't a straight line.
@@ -89,6 +152,7 @@ function MissedDay() {
             Missing one day is information, not failure.
             The important thing is what you do next.
           </p>
+
         </div>
 
       </section>

@@ -10,14 +10,13 @@ import Profile from "./pages/Profile";
 function App() {
   return (
     <BrowserRouter>
-
       <Routes>
-
         <Route path="/" element={<Landing />} />
 
         <Route path="/dashboard" element={<Dashboard />} />
 
-        <Route path="/day/12" element={<Day />} />
+        {/* All challenge days */}
+        <Route path="/day/:dayNumber" element={<Day />} />
 
         <Route path="/day/1" element={<DayOne />} />
 
@@ -25,11 +24,8 @@ function App() {
 
         <Route path="/profile" element={<Profile />} />
 
-        <Route path="*"  element={<Navigate to="/" replace />} />
-
-
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-
     </BrowserRouter>
   );
 }

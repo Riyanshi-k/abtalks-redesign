@@ -1,0 +1,533 @@
+/* =====================================================
+   ABTALKS PROFILE
+===================================================== */
+
+.profile-page {
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  padding: 40px 20px 80px;
+
+  background: #043222;
+  color: #F6E9D9;
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.profile-hero {
+  width: min(900px, 100%);
+  margin: 0 auto 20px;
+}
+
+.back-link {
+  display: inline-block;
+
+  margin-bottom: 24px;
+
+  color: #DDE6D7;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.back-link:hover {
+  color: #F6E9D9;
+}
+
+.profile-identity {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+
+  padding: 30px;
+
+  background: #0B4937;
+
+  border: 1px solid #286553;
+  border-radius: 26px;
+
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.16);
+}
+
+
+/* Avatar */
+
+.profile-avatar {
+  width: 76px;
+  height: 76px;
+
+  flex-shrink: 0;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 22px;
+
+  background: #D8B45A;
+  color: #043222;
+
+  font-size: 30px;
+  font-weight: 900;
+
+  border: 4px solid #F6E9D9;
+}
+
+.profile-identity h1 {
+  margin: 0 0 6px;
+
+  color: #F6E9D9;
+
+  font-size: 42px;
+}
+
+.profile-tagline {
+  margin: 0;
+
+  color: #D8CDBD;
+}
+
+
+/* =====================================================
+   STATS
+===================================================== */
+
+.profile-stats {
+  width: min(900px, 100%);
+  margin: 0 auto 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.profile-stats > div {
+  padding: 23px;
+
+  border-radius: 20px;
+
+  color: #F6E9D9;
+
+  border: 1px solid rgba(246, 233, 217, 0.12);
+
+  background: #0B4937;
+}
+
+.profile-stats > div:nth-child(2) {
+  background: #145A45;
+}
+
+.profile-stats > div:nth-child(3) {
+  background: #174F3D;
+}
+
+.profile-stats strong {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #F6E9D9;
+
+  font-size: 32px;
+  line-height: 1;
+}
+
+.profile-stats span {
+  color: #D8CDBD;
+
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+
+/* =====================================================
+   PROOF SECTION
+===================================================== */
+
+.profile-section {
+  width: min(900px, 100%);
+  margin: 0 auto 20px;
+
+  padding: 28px;
+
+  box-sizing: border-box;
+
+  background: #0B4937;
+
+  border: 1px solid #286553;
+  border-radius: 26px;
+}
+
+.profile-section-heading {
+  margin-bottom: 22px;
+}
+
+.profile-section-heading h2 {
+  margin: 0 0 8px;
+
+  color: #F6E9D9;
+
+  font-size: 25px;
+}
+
+.profile-section-heading > p:last-child {
+  margin: 0;
+
+  color: #D8CDBD;
+
+  line-height: 1.6;
+}
+
+
+/* =====================================================
+   PROOF CARDS
+   Dashboard-style cards
+===================================================== */
+
+.proof-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  margin-top: 14px;
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  background: #145A45;
+
+  border: 1px solid #286553;
+  border-radius: 20px;
+
+  color: #F6E9D9;
+
+  box-shadow: none;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.proof-card:hover {
+  transform: translateY(-2px);
+
+  background: #174F3D;
+
+  border-color: #3A755F;
+}
+
+
+/* =====================================================
+   PROOF NUMBER ICON
+===================================================== */
+
+.proof-icon {
+  width: 48px;
+  height: 48px;
+
+  flex-shrink: 0;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 13px;
+
+  background: #D8B45A;
+  color: #043222;
+
+  font-weight: 900;
+}
+
+
+/* =====================================================
+   PROOF CONTENT
+===================================================== */
+
+.proof-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.proof-content > span {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: #D8B45A;
+
+  font-size: 11px;
+  font-weight: 900;
+
+  letter-spacing: 0.12em;
+}
+
+.proof-content h3 {
+  margin: 0 0 7px;
+
+  color: #F6E9D9;
+
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.proof-content p {
+  margin: 0;
+
+  color: #F6E9D9;
+
+  font-size: 15px;
+  line-height: 1.55;
+
+  word-break: break-word;
+}
+
+/* =====================================================
+   PROFILE INPUT
+===================================================== */
+
+.profile-connect-input {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  margin-top: 12px;
+  padding: 12px 14px;
+
+  background: #043222;
+
+  color: #F6E9D9;
+
+  border: 1px solid #3A755F;
+  border-radius: 10px;
+
+  font-size: 14px;
+
+  outline: none;
+}
+
+.profile-connect-input::placeholder {
+  color: #9BB0A4;
+}
+
+.profile-connect-input:focus {
+  border-color: #D8B45A;
+
+  box-shadow: 0 0 0 2px rgba(216, 180, 90, 0.12);
+}
+
+
+/* =====================================================
+CONNECT BUTTON
+===================================================== */
+
+.profile-action {
+  flex-shrink: 0;
+
+  padding: 12px 18px;
+
+  border-radius: 11px;
+
+  background: #F6E9D9 !important;
+  color: #043222 !important;
+
+  border: 1px solid #F6E9D9 !important;
+
+  font-weight: 900;
+  font-size: 14px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.profile-action:hover {
+  background: #D8B45A !important;
+  color: #043222 !important;
+
+  transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   PORTFOLIO / EMPTY STATE
+===================================================== */
+
+.profile-empty {
+  width: min(900px, 100%);
+  margin: 0 auto;
+
+  box-sizing: border-box;
+
+  padding: 40px 30px;
+
+  text-align: center;
+
+  background: #174F3D;
+
+  border: 1px solid #286553;
+  border-radius: 26px;
+
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.14);
+}
+
+.empty-mark {
+  width: 55px;
+  height: 55px;
+
+  display: grid;
+  place-items: center;
+
+  margin: 0 auto 18px;
+
+  border-radius: 16px;
+
+  background: #D8B45A;
+  color: #043222;
+
+  font-size: 23px;
+}
+
+.profile-empty h2 {
+  margin: 8px 0 10px;
+
+  color: #F6E9D9;
+
+  font-size: 27px;
+}
+
+.profile-empty > p:not(.small-text) {
+  max-width: 570px;
+
+  margin: 0 auto 25px;
+
+  color: #D8CDBD;
+
+  line-height: 1.6;
+}
+
+
+/* =====================================================
+   PORTFOLIO BUTTON
+===================================================== */
+
+.profile-empty .mission-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  padding: 14px 20px;
+
+  border-radius: 12px;
+
+  background: #D8B45A;
+  color: #043222;
+
+  border: 1px solid #D8B45A;
+
+  text-decoration: none;
+
+  font-weight: 900;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.profile-empty .mission-button span {
+  color: #043222;
+}
+
+.profile-empty .mission-button:hover {
+  background: #F6E9D9;
+  color: #043222;
+
+  transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 650px) {
+
+  .profile-page {
+    padding: 24px 16px 60px;
+  }
+
+
+  /* Hero */
+
+  .profile-identity {
+    padding: 24px;
+
+    align-items: flex-start;
+  }
+
+  .profile-avatar {
+    width: 60px;
+    height: 60px;
+
+    font-size: 24px;
+  }
+
+  .profile-identity h1 {
+    font-size: 34px;
+  }
+
+
+  /* Stats */
+
+  .profile-stats {
+    grid-template-columns: 1fr;
+  }
+
+
+  /* Proof section */
+
+  .profile-section {
+    padding: 22px;
+  }
+
+
+  /* Proof cards */
+
+  .proof-card {
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+
+    padding: 18px;
+  }
+
+  .proof-content {
+    min-width: 0;
+  }
+
+
+  /* Button */
+
+  .profile-action {
+    width: 100%;
+  }
+
+
+  /* Portfolio */
+
+  .profile-empty {
+    padding: 32px 22px;
+  }
+
+  .profile-empty .mission-button {
+    width: 100%;
+  }
+
+}

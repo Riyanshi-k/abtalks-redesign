@@ -19,8 +19,8 @@ body {
     BlinkMacSystemFont,
     sans-serif;
 
-  background: #FFF8ED;
-  color: #043222;
+  background: #051F20;
+  color: #DAF1DE;
 
   min-height: 100vh;
 }
@@ -1450,4 +1450,2302 @@ body {
 .profile-dot:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(4, 50, 34, 0.16);
+}
+
+/* =========================================
+   ABTALKS — FINAL EVERGREEN THEME
+   ========================================= */
+
+:root {
+  --bg-deep: #051F20;
+  --bg-dark: #0B2B26;
+  --green-dark: #163832;
+  --green-mid: #235347;
+  --green-light: #8EB69B;
+  --cream: #DAF1DE;
+
+  --text-main: #DAF1DE;
+  --text-muted: #8EB69B;
+  --text-dark: #051F20;
+
+  --border: rgba(142, 182, 155, 0.18);
+}
+
+/* Main page */
+
+body {
+  background: var(--bg-deep) !important;
+  color: var(--text-main);
+}
+
+/* Common cards */
+
+.card,
+.streak-card,
+.momentum-card,
+.mission-card,
+.progress-card,
+.insight-card,
+.achievement-card {
+  background: var(--bg-dark);
+  color: var(--text-main);
+  border-color: var(--border);
+}
+
+/* Secondary / darker sections */
+
+.dashboard,
+.page {
+  background: var(--bg-deep);
+  color: var(--text-main);
+}
+
+/* Main headings */
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--cream);
+}
+
+/* Supporting text */
+
+p,
+.subtitle,
+.small-text {
+  color: var(--text-muted);
+}
+
+/* Labels */
+
+.card-label,
+.section-kicker,
+.eyebrow,
+.small-text {
+  color: var(--green-light);
+}
+
+/* Light green accent boxes */
+
+.stat-box,
+.score-box,
+.streak-number,
+.momentum-score {
+  background: var(--green-light);
+  color: var(--text-dark);
+}
+
+/* Buttons */
+
+.primary-btn,
+.primary-button {
+  background: var(--green-light);
+  color: var(--text-dark);
+  border-color: var(--green-light);
+}
+
+.primary-btn:hover,
+.primary-button:hover {
+  background: var(--cream);
+  color: var(--text-dark);
+}
+
+/* Secondary buttons */
+
+.secondary-btn {
+  background: transparent;
+  color: var(--cream);
+  border: 1px solid var(--green-mid);
+}
+
+.secondary-btn:hover {
+  background: var(--green-dark);
+  border-color: var(--green-light);
+}
+
+/* Progress bars */
+
+.progress-track {
+  background: var(--green-dark);
+}
+
+.progress-fill {
+  background: var(--green-light);
+}
+
+/* Links */
+
+a {
+  color: var(--green-light);
+}
+
+/* Profile/avatar */
+
+.profile-dot {
+  background: var(--green-light);
+  color: var(--text-dark);
+}
+
+/* Streak day indicators */
+
+.day-complete,
+.completed {
+  background: var(--green-mid);
+  color: var(--cream);
+}
+
+.day-active,
+.active {
+  background: var(--green-light);
+  color: var(--text-dark);
+}
+
+.day-empty {
+  background: var(--green-dark);
+  color: var(--text-muted);
+}
+
+/* Subtle borders */
+
+.card,
+.streak-card {
+  border: 1px solid var(--border);
+}
+
+/* =========================================
+   ABTALKS — FINAL VISUAL OVERRIDES
+   ========================================= */
+
+.landing {
+  background: #051F20 !important;
+  color: #DAF1DE !important;
+}
+
+/* Navbar */
+
+.landing .logo span {
+  color: #DAF1DE !important;
+}
+
+.landing .logo-box {
+  background: #163832 !important;
+  color: #DAF1DE !important;
+}
+
+.landing .secondary-btn {
+  background: #0B2B26 !important;
+  color: #DAF1DE !important;
+  border: 1px solid #8EB69B !important;
+}
+
+.landing .secondary-btn:hover {
+  background: #235347 !important;
+  color: #DAF1DE !important;
+}
+
+/* Hero */
+
+.landing .eyebrow {
+  color: #8EB69B !important;
+}
+
+.landing .title {
+  color: #DAF1DE !important;
+}
+
+.landing .title .green {
+  color: #8EB69B !important;
+}
+
+.landing .subtitle {
+  color: #8EB69B !important;
+}
+
+/* Main CTA */
+
+.landing .primary-btn {
+  background: #8EB69B !important;
+  color: #051F20 !important;
+  border-color: #8EB69B !important;
+}
+
+.landing .primary-btn:hover {
+  background: #DAF1DE !important;
+  color: #051F20 !important;
+}
+
+/* Landing cards */
+
+.landing .card {
+  background: #0B2B26 !important;
+  color: #DAF1DE !important;
+  border: 1px solid rgba(142, 182, 155, 0.18) !important;
+}
+
+.landing .card h2,
+.landing .card h3 {
+  color: #DAF1DE !important;
+}
+
+.landing .card p {
+  color: #8EB69B !important;
+}
+
+/* Feature icons */
+
+.landing .feature h2 {
+  color: #8EB69B !important;
+}
+
+/* CTA section */
+
+.landing .cta {
+  background: #163832 !important;
+}
+
+.landing .cta h2 {
+  color: #DAF1DE !important;
+}
+
+/* =========================================================
+   FINAL DARK GREEN THEME — TEXT VISIBILITY FIX
+   ========================================================= */
+
+:root {
+  --bg: #061f1b;
+  --bg-deep: #041815;
+
+  --green-900: #06261f;
+  --green-800: #0a3027;
+  --green-700: #0e3a2f;
+  --green-600: #14503f;
+  --green-500: #1d644e;
+  --green-400: #3f876b;
+
+  --cream: #f3eadb;
+  --cream-soft: #e8dfcf;
+  --beige: #d8c8a9;
+
+  --text-primary: #f3eadb;
+  --text-secondary: #c6d8ca;
+  --text-muted: #91b2a2;
+
+  --accent: #d3a448;
+}
+
+/* Main page */
+body {
+  background: var(--bg) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Make normal text readable */
+p,
+li,
+span {
+  color: var(--text-secondary);
+}
+
+/* Main headings */
+h1,
+h2,
+h3,
+h4 {
+  color: var(--text-primary);
+}
+
+/* =========================================================
+   DAY PAGE
+   ========================================================= */
+
+.day-page,
+.day,
+.challenge-page {
+  background: var(--bg) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Main Day heading */
+.day-page h1,
+.day-page h2,
+.day h1,
+.day h2,
+.challenge-page h1,
+.challenge-page h2 {
+  color: var(--cream) !important;
+}
+
+/* Description text */
+.day-page p,
+.day p,
+.challenge-page p {
+  color: var(--text-secondary) !important;
+}
+
+/* Mission card */
+.mission-card {
+  background: var(--green-800) !important;
+  border: 1px solid rgba(216, 200, 169, 0.18);
+  color: var(--cream) !important;
+}
+
+/* Mission card heading */
+.mission-card h2,
+.mission-card h3 {
+  color: var(--cream) !important;
+}
+
+/* Mission card description */
+.mission-card p {
+  color: #b9d0c1 !important;
+}
+
+/* =========================================================
+   TASK / CHECKLIST ITEMS
+   ========================================================= */
+
+.mission-card li,
+.task,
+.task-item,
+.checklist-item {
+  background: var(--cream-soft) !important;
+  color: #09251f !important;
+}
+
+.mission-card li *,
+.task *,
+.task-item *,
+.checklist-item * {
+  color: #09251f !important;
+}
+
+/* Numbers inside task rows */
+.mission-card li span,
+.task span,
+.task-item span,
+.checklist-item span {
+  color: #b18732 !important;
+}
+
+/* =========================================================
+   SMALL LABELS / BADGES
+   ========================================================= */
+
+.badge,
+.tag,
+.label,
+.card-label {
+  background: var(--cream-soft) !important;
+  color: #09251f !important;
+}
+
+/* =========================================================
+   REMEMBER / INFO CARDS
+   ========================================================= */
+
+.remember-card,
+.info-card,
+.tip-card {
+  background: #e4eadf !important;
+  color: #09251f !important;
+}
+
+.remember-card h3,
+.info-card h3,
+.tip-card h3 {
+  color: #34705b !important;
+}
+
+.remember-card p,
+.info-card p,
+.tip-card p {
+  color: #214b3e !important;
+}
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+button {
+  color: var(--cream);
+}
+
+.primary-btn {
+  background: var(--green-600) !important;
+  color: var(--cream) !important;
+}
+
+.primary-btn:hover {
+  background: var(--green-500) !important;
+}
+
+.secondary-btn {
+  background: transparent !important;
+  color: var(--cream) !important;
+  border-color: var(--cream) !important;
+}
+
+/* =========================================================
+   DASHBOARD CARDS
+   ========================================================= */
+
+.card {
+  color: var(--text-primary);
+}
+
+/* Don't let dashboard text inherit the dark background color */
+.card h1,
+.card h2,
+.card h3,
+.card h4 {
+  color: var(--cream) !important;
+}
+
+.card p {
+  color: var(--text-secondary) !important;
+}
+
+/* Dark green cards should be visibly different from body */
+.streak-card,
+.momentum-card,
+.mission-card {
+  background: var(--green-800) !important;
+}
+
+/* Light cards */
+.light-card {
+  background: var(--cream-soft) !important;
+  color: #09251f !important;
+}
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a {
+  color: var(--cream) !important;
+}
+
+a:hover {
+  color: #d8c8a9 !important;
+}
+
+/* =========================================================
+   ABTALKS — FINAL READABILITY OVERRIDES
+   Applies to Dashboard, Day 1, Day 12 & Profile
+   ========================================================= */
+
+:root {
+  --abt-bg: #061f1b;
+  --abt-bg-2: #082a23;
+
+  --abt-card: #0b332a;
+  --abt-card-2: #104438;
+  --abt-card-3: #155342;
+
+  --abt-cream: #f3eadb;
+  --abt-cream-2: #e8dfcf;
+  --abt-light-green: #cfe2d2;
+
+  --abt-text: #f3eadb;
+  --abt-text-2: #c7d9cd;
+  --abt-muted: #9bb9aa;
+
+  --abt-gold: #d3a448;
+  --abt-gold-soft: #ead8a9;
+
+  --abt-dark-text: #09251f;
+}
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+html,
+body,
+#root {
+  background: var(--abt-bg) !important;
+  color: var(--abt-text) !important;
+}
+
+body {
+  color: var(--abt-text) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--abt-cream) !important;
+}
+
+p {
+  color: var(--abt-text-2) !important;
+}
+
+
+/* =========================================================
+   DAY 1 + DAY 12
+   ========================================================= */
+
+/* Covers common page wrappers */
+.day-page,
+.day,
+.challenge-page,
+.day-one,
+.challenge-day,
+.day-container {
+  background: var(--abt-bg) !important;
+  color: var(--abt-text) !important;
+}
+
+/* Headings */
+.day-page h1,
+.day-page h2,
+.day-page h3,
+.day h1,
+.day h2,
+.day h3,
+.challenge-page h1,
+.challenge-page h2,
+.challenge-page h3,
+.day-one h1,
+.day-one h2,
+.day-one h3 {
+  color: var(--abt-cream) !important;
+}
+
+/* Normal paragraph/description text */
+.day-page p,
+.day p,
+.challenge-page p,
+.day-one p {
+  color: var(--abt-text-2) !important;
+}
+
+
+/* =========================================================
+   MISSION / CHALLENGE CARDS
+   ========================================================= */
+
+.mission-card,
+.challenge-card,
+.day-card,
+.mission,
+.challenge {
+  background: var(--abt-card) !important;
+  color: var(--abt-text) !important;
+
+  border: 1px solid rgba(207, 226, 210, 0.14) !important;
+}
+
+
+/* Card headings */
+.mission-card h1,
+.mission-card h2,
+.mission-card h3,
+.challenge-card h1,
+.challenge-card h2,
+.challenge-card h3,
+.day-card h1,
+.day-card h2,
+.day-card h3 {
+  color: var(--abt-cream) !important;
+}
+
+
+/* Card descriptions */
+.mission-card p,
+.challenge-card p,
+.day-card p,
+.mission p,
+.challenge p {
+  color: var(--abt-text-2) !important;
+}
+
+
+/* =========================================================
+   TASK ROWS
+   ========================================================= */
+
+.mission-card li,
+.challenge-card li,
+.task,
+.task-item,
+.checklist-item,
+.challenge-step,
+.mission-step {
+  background: var(--abt-cream-2) !important;
+  color: var(--abt-dark-text) !important;
+}
+
+
+/* EVERYTHING INSIDE TASK ROW */
+.mission-card li *,
+.challenge-card li *,
+.task *,
+.task-item *,
+.checklist-item *,
+.challenge-step *,
+.mission-step * {
+  color: var(--abt-dark-text) !important;
+}
+
+
+/* Task numbers */
+.mission-card li:first-letter,
+.task:first-letter,
+.task-item:first-letter {
+  color: var(--abt-gold) !important;
+}
+
+
+/* =========================================================
+   BADGES
+   ========================================================= */
+
+.badge,
+.tag,
+.label,
+.difficulty,
+.duration,
+.card-label {
+  background: var(--abt-cream-2) !important;
+  color: var(--abt-dark-text) !important;
+}
+
+
+/* =========================================================
+   REMEMBER / TIP / INFO SECTION
+   ========================================================= */
+
+.remember-card,
+.remember,
+.info-card,
+.tip-card,
+.tip,
+.notice {
+  background: #dce8dd !important;
+  color: var(--abt-dark-text) !important;
+}
+
+.remember-card h1,
+.remember-card h2,
+.remember-card h3,
+.remember h1,
+.remember h2,
+.remember h3,
+.info-card h1,
+.info-card h2,
+.info-card h3,
+.tip-card h1,
+.tip-card h2,
+.tip-card h3 {
+  color: #28614e !important;
+}
+
+.remember-card p,
+.remember p,
+.info-card p,
+.tip-card p,
+.tip p {
+  color: #21483d !important;
+}
+
+
+/* =========================================================
+   PROFILE PAGE
+   ========================================================= */
+
+.profile-page,
+.profile,
+.profile-container,
+.profile-wrapper {
+  background: var(--abt-bg) !important;
+  color: var(--abt-text) !important;
+}
+
+
+/* Profile headings */
+.profile-page h1,
+.profile-page h2,
+.profile-page h3,
+.profile h1,
+.profile h2,
+.profile h3,
+.profile-container h1,
+.profile-container h2,
+.profile-container h3 {
+  color: var(--abt-cream) !important;
+}
+
+
+/* Profile descriptions */
+.profile-page p,
+.profile p,
+.profile-container p,
+.profile-wrapper p {
+  color: var(--abt-text-2) !important;
+}
+
+
+/* Profile cards */
+.profile-card,
+.profile-section,
+.profile-stat,
+.profile-info,
+.profile-box {
+  background: var(--abt-card) !important;
+  color: var(--abt-text) !important;
+
+  border: 1px solid rgba(207, 226, 210, 0.14) !important;
+}
+
+
+/* Profile card headings */
+.profile-card h2,
+.profile-card h3,
+.profile-section h2,
+.profile-section h3,
+.profile-stat h2,
+.profile-stat h3 {
+  color: var(--abt-cream) !important;
+}
+
+
+/* Profile card text */
+.profile-card p,
+.profile-section p,
+.profile-stat p,
+.profile-info p {
+  color: var(--abt-text-2) !important;
+}
+
+
+/* =========================================================
+   PROFILE STATS
+   ========================================================= */
+
+.profile-stat strong,
+.profile-stat b,
+.stat-number {
+  color: var(--abt-cream) !important;
+}
+
+.stat-label,
+.profile-stat span {
+  color: var(--abt-muted) !important;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+button {
+  font-family: inherit;
+}
+
+.primary-btn,
+.primary-button {
+  background: var(--abt-card-3) !important;
+  color: var(--abt-cream) !important;
+  border: 1px solid rgba(207, 226, 210, 0.15) !important;
+}
+
+.primary-btn:hover,
+.primary-button:hover {
+  background: #1c664f !important;
+  color: #ffffff !important;
+}
+
+.secondary-btn,
+.secondary-button {
+  background: transparent !important;
+  color: var(--abt-cream) !important;
+  border: 1px solid var(--abt-cream) !important;
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a {
+  color: var(--abt-light-green) !important;
+}
+
+a:hover {
+  color: var(--abt-cream) !important;
+}
+
+
+/* =========================================================
+   SMALL TEXT — IMPORTANT
+   ========================================================= */
+
+/* Prevent small labels from becoming invisible */
+small,
+.label,
+.kicker,
+.eyebrow,
+.section-kicker,
+.card-label,
+.meta,
+.subtitle {
+  color: var(--abt-light-green) !important;
+}
+
+
+/* =========================================================
+   ICON CIRCLES / DECORATIVE BOXES
+   ========================================================= */
+
+.icon-box,
+.icon-circle,
+.profile-icon,
+.stat-icon {
+  background: var(--abt-card-2) !important;
+  color: var(--abt-cream) !important;
+}
+
+
+/* =========================================================
+   INPUTS
+   ========================================================= */
+
+input,
+textarea,
+select {
+  background: var(--abt-card) !important;
+  color: var(--abt-cream) !important;
+  border: 1px solid rgba(207, 226, 210, 0.2) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--abt-muted) !important;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  h1,
+  h2,
+  h3 {
+    color: var(--abt-cream) !important;
+  }
+
+  p {
+    color: var(--abt-text-2) !important;
+  }
+
+  .mission-card,
+  .challenge-card,
+  .day-card,
+  .profile-card,
+  .profile-section,
+  .profile-stat {
+    background: var(--abt-card) !important;
+  }
+
+}
+
+/* =========================================================
+   FINAL TEXT CONTRAST FIX
+   DAY 1 + DAY 12 + PROFILE
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   DAY MISSION TASK ROWS
+   --------------------------------------------------------- */
+
+.mission-card li,
+.mission-card li *,
+.challenge-card li,
+.challenge-card li *,
+.task,
+.task *,
+.task-item,
+.task-item *,
+.task-row,
+.task-row *,
+.checklist-item,
+.checklist-item *,
+.challenge-step,
+.challenge-step *,
+.mission-step,
+.mission-step * {
+  color: #09251f !important;
+}
+
+
+/* Task row background */
+.mission-card li,
+.challenge-card li,
+.task,
+.task-item,
+.task-row,
+.checklist-item,
+.challenge-step,
+.mission-step {
+  background: #eee7d9 !important;
+}
+
+
+/* Task numbers */
+.mission-card li span:first-child,
+.task span:first-child,
+.task-item span:first-child,
+.task-row span:first-child {
+  color: #b1842f !important;
+}
+
+
+/* ---------------------------------------------------------
+   MISSION CARD MAIN CONTENT
+   --------------------------------------------------------- */
+
+.mission-card,
+.challenge-card {
+  background: #0b332a !important;
+  color: #f3eadb !important;
+}
+
+.mission-card h1,
+.mission-card h2,
+.mission-card h3,
+.challenge-card h1,
+.challenge-card h2,
+.challenge-card h3 {
+  color: #f3eadb !important;
+}
+
+.mission-card p,
+.challenge-card p {
+  color: #c7d9cd !important;
+}
+
+
+/* ---------------------------------------------------------
+   DAY 1 / DAY 12 DESCRIPTION
+   --------------------------------------------------------- */
+
+.day-page p,
+.day p,
+.challenge-page p,
+.day-one p,
+.challenge-day p {
+  color: #c7d9cd !important;
+}
+
+
+/* ---------------------------------------------------------
+   REMEMBER / A LITTLE DIRECTION CARD
+   --------------------------------------------------------- */
+
+.remember-card,
+.remember,
+.info-card,
+.tip-card,
+.tip,
+.notice {
+  background: #dce8dd !important;
+  color: #21483d !important;
+}
+
+
+/* EVERYTHING inside the light card must be dark */
+.remember-card *,
+.remember *,
+.info-card *,
+.tip-card *,
+.tip *,
+.notice * {
+  color: #21483d !important;
+}
+
+
+/* Remember heading */
+.remember-card h1,
+.remember-card h2,
+.remember-card h3,
+.remember h1,
+.remember h2,
+.remember h3,
+.info-card h1,
+.info-card h2,
+.info-card h3,
+.tip-card h1,
+.tip-card h2,
+.tip-card h3 {
+  color: #28614e !important;
+}
+
+
+/* Remember small label */
+.remember-card .label,
+.remember-card .card-label,
+.remember .label,
+.remember .card-label,
+.info-card .label,
+.tip-card .label {
+  color: #4b8a70 !important;
+}
+
+
+/* ---------------------------------------------------------
+   PROFILE PAGE
+   --------------------------------------------------------- */
+
+.profile-page,
+.profile,
+.profile-container,
+.profile-wrapper {
+  background: #061f1b !important;
+  color: #f3eadb !important;
+}
+
+
+/* Profile headings */
+.profile-page h1,
+.profile-page h2,
+.profile-page h3,
+.profile-page h4,
+.profile h1,
+.profile h2,
+.profile h3,
+.profile h4,
+.profile-container h1,
+.profile-container h2,
+.profile-container h3,
+.profile-wrapper h1,
+.profile-wrapper h2,
+.profile-wrapper h3 {
+  color: #f3eadb !important;
+}
+
+
+/* Profile normal text */
+.profile-page p,
+.profile-page span,
+.profile-page label,
+.profile p,
+.profile span,
+.profile label,
+.profile-container p,
+.profile-container span,
+.profile-container label,
+.profile-wrapper p,
+.profile-wrapper span,
+.profile-wrapper label {
+  color: #c7d9cd !important;
+}
+
+
+/* ---------------------------------------------------------
+   PROFILE CARDS
+   --------------------------------------------------------- */
+
+.profile-card,
+.profile-section,
+.profile-stat,
+.profile-info,
+.profile-box {
+  background: #0b332a !important;
+  color: #f3eadb !important;
+
+  border: 1px solid rgba(207, 226, 210, 0.14) !important;
+}
+
+
+/* Profile card headings */
+.profile-card h1,
+.profile-card h2,
+.profile-card h3,
+.profile-card h4,
+.profile-section h2,
+.profile-section h3,
+.profile-stat h2,
+.profile-stat h3 {
+  color: #f3eadb !important;
+}
+
+
+/* Profile card text */
+.profile-card p,
+.profile-card span,
+.profile-card label,
+.profile-section p,
+.profile-section span,
+.profile-stat p,
+.profile-stat span,
+.profile-info p {
+  color: #c7d9cd !important;
+}
+
+
+/* Profile numbers */
+.profile-stat strong,
+.profile-stat b,
+.stat-number {
+  color: #f3eadb !important;
+}
+
+
+/* Profile labels */
+.stat-label,
+.profile-stat .label {
+  color: #9fbdad !important;
+}
+
+
+/* ---------------------------------------------------------
+   BADGES
+   --------------------------------------------------------- */
+
+.mission-card .badge,
+.mission-card .tag,
+.mission-card .difficulty,
+.mission-card .duration,
+.challenge-card .badge,
+.challenge-card .tag,
+.challenge-card .difficulty,
+.challenge-card .duration {
+  background: #eee7d9 !important;
+  color: #09251f !important;
+}
+
+
+/* ---------------------------------------------------------
+   SMALL TEXT — KEEP IT VISIBLE
+   --------------------------------------------------------- */
+
+.mission-card small,
+.challenge-card small,
+.profile-card small,
+.profile-section small {
+  color: #c7d9cd !important;
+}
+
+
+/* ---------------------------------------------------------
+   MOBILE TOO
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .mission-card li,
+  .task,
+  .task-item,
+  .task-row,
+  .checklist-item {
+    background: #eee7d9 !important;
+    color: #09251f !important;
+  }
+
+  .mission-card li *,
+  .task *,
+  .task-item *,
+  .task-row *,
+  .checklist-item * {
+    color: #09251f !important;
+  }
+
+  .remember-card *,
+  .remember *,
+  .info-card *,
+  .tip-card * {
+    color: #21483d !important;
+  }
+
+  .profile-card,
+  .profile-section,
+  .profile-stat {
+    background: #0b332a !important;
+  }
+}
+
+/* =========================================================
+   ABTALKS — FINAL GREEN CARD SYSTEM
+   DARK BACKGROUND + GREEN CARDS + LIGHT TEXT
+   ========================================================= */
+
+:root {
+  --bg-dark: #061f1b;
+
+  --green-1: #082821;
+  --green-2: #0b332a;
+  --green-3: #0f4033;
+  --green-4: #145342;
+  --green-5: #1b654f;
+  --green-6: #28765c;
+
+  --cream: #f4ead8;
+  --cream-soft: #e7dcc7;
+  --light-green: #c9ddcf;
+  --muted-green: #9fc0ad;
+
+  --gold: #d6ad58;
+  --gold-light: #e7c878;
+
+  --dark-text: #06231c;
+}
+
+
+/* =========================================================
+   GLOBAL BACKGROUND
+   ========================================================= */
+
+html,
+body,
+#root {
+  background: var(--bg-dark) !important;
+  color: var(--cream) !important;
+}
+
+body {
+  background: var(--bg-dark) !important;
+}
+
+
+/* =========================================================
+   GLOBAL TEXT
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--cream) !important;
+}
+
+p {
+  color: var(--light-green) !important;
+}
+
+
+/* =========================================================
+   DAY 1 + DAY 12
+   ========================================================= */
+
+.day-page,
+.day,
+.challenge-page,
+.day-one,
+.challenge-day,
+.day-container {
+  background: var(--bg-dark) !important;
+  color: var(--cream) !important;
+}
+
+
+/* Main headings */
+
+.day-page h1,
+.day-page h2,
+.day-page h3,
+.day h1,
+.day h2,
+.day h3,
+.challenge-page h1,
+.challenge-page h2,
+.challenge-page h3,
+.day-one h1,
+.day-one h2,
+.day-one h3 {
+  color: var(--cream) !important;
+}
+
+
+/* Descriptions */
+
+.day-page p,
+.day p,
+.challenge-page p,
+.day-one p,
+.challenge-day p {
+  color: var(--light-green) !important;
+}
+
+
+/* =========================================================
+   MISSION CARD
+   ========================================================= */
+
+.mission-card,
+.challenge-card,
+.day-card,
+.mission,
+.challenge {
+  background: var(--green-2) !important;
+
+  color: var(--cream) !important;
+
+  border: 1px solid rgba(201, 221, 207, 0.15) !important;
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.18) !important;
+}
+
+
+/* Mission heading */
+
+.mission-card h1,
+.mission-card h2,
+.mission-card h3,
+.challenge-card h1,
+.challenge-card h2,
+.challenge-card h3,
+.day-card h1,
+.day-card h2,
+.day-card h3 {
+  color: var(--cream) !important;
+}
+
+
+/* Mission description */
+
+.mission-card p,
+.challenge-card p,
+.day-card p,
+.mission p,
+.challenge p {
+  color: var(--light-green) !important;
+}
+
+
+/* =========================================================
+   TASK ROWS
+   NO WHITE CARDS
+   ========================================================= */
+
+.mission-card li,
+.challenge-card li,
+.task,
+.task-item,
+.task-row,
+.checklist-item,
+.challenge-step,
+.mission-step {
+  background: var(--green-4) !important;
+
+  color: var(--cream) !important;
+
+  border: 1px solid rgba(201, 221, 207, 0.08) !important;
+}
+
+
+/* Everything inside task rows */
+
+.mission-card li *,
+.challenge-card li *,
+.task *,
+.task-item *,
+.task-row *,
+.checklist-item *,
+.challenge-step *,
+.mission-step * {
+  color: var(--cream) !important;
+}
+
+
+/* Task number */
+
+.mission-card li span:first-child,
+.task span:first-child,
+.task-item span:first-child,
+.task-row span:first-child {
+  color: var(--gold-light) !important;
+}
+
+
+/* =========================================================
+   BADGES
+   Small cream elements are OK
+   ========================================================= */
+
+.badge,
+.tag,
+.difficulty,
+.duration {
+  background: var(--cream-soft) !important;
+  color: var(--dark-text) !important;
+}
+
+
+/* =========================================================
+   REMEMBER / DIRECTION CARD
+   GREEN — NOT WHITE
+   ========================================================= */
+
+.remember-card,
+.remember,
+.info-card,
+.tip-card,
+.tip,
+.notice {
+  background: var(--green-3) !important;
+
+  color: var(--cream) !important;
+
+  border: 1px solid rgba(201, 221, 207, 0.12) !important;
+}
+
+
+/* EVERYTHING inside */
+
+.remember-card *,
+.remember *,
+.info-card *,
+.tip-card *,
+.tip *,
+.notice * {
+  color: var(--cream) !important;
+}
+
+
+/* Remember small label */
+
+.remember-card .label,
+.remember-card .card-label,
+.remember .label,
+.remember .card-label,
+.info-card .label,
+.tip-card .label {
+  color: var(--gold-light) !important;
+}
+
+
+/* Remember paragraph */
+
+.remember-card p,
+.remember p,
+.info-card p,
+.tip-card p,
+.tip p {
+  color: var(--light-green) !important;
+}
+
+
+/* =========================================================
+   PROOF OF WORK SECTION
+   ========================================================= */
+
+.proof-card,
+.proof-section,
+.github-card,
+.linkedin-card {
+  background: var(--green-2) !important;
+
+  color: var(--cream) !important;
+
+  border: 1px solid rgba(201, 221, 207, 0.12) !important;
+}
+
+.proof-card *,
+.proof-section *,
+.github-card *,
+.linkedin-card * {
+  color: var(--cream) !important;
+}
+
+
+/* =========================================================
+   PROFILE
+   ========================================================= */
+
+.profile-page,
+.profile,
+.profile-container,
+.profile-wrapper {
+  background: var(--bg-dark) !important;
+  color: var(--cream) !important;
+}
+
+
+/* Profile headings */
+
+.profile-page h1,
+.profile-page h2,
+.profile-page h3,
+.profile-page h4,
+.profile h1,
+.profile h2,
+.profile h3,
+.profile h4,
+.profile-container h1,
+.profile-container h2,
+.profile-container h3,
+.profile-wrapper h1,
+.profile-wrapper h2,
+.profile-wrapper h3 {
+  color: var(--cream) !important;
+}
+
+
+/* Profile normal text */
+
+.profile-page p,
+.profile-page span,
+.profile-page label,
+.profile p,
+.profile span,
+.profile label,
+.profile-container p,
+.profile-container span,
+.profile-container label,
+.profile-wrapper p,
+.profile-wrapper span,
+.profile-wrapper label {
+  color: var(--light-green) !important;
+}
+
+
+/* =========================================================
+   PROFILE CARDS
+   ========================================================= */
+
+.profile-card,
+.profile-section,
+.profile-stat,
+.profile-info,
+.profile-box {
+  background: var(--green-2) !important;
+
+  color: var(--cream) !important;
+
+  border: 1px solid rgba(201, 221, 207, 0.12) !important;
+}
+
+
+/* Profile card headings */
+
+.profile-card h1,
+.profile-card h2,
+.profile-card h3,
+.profile-card h4,
+.profile-section h2,
+.profile-section h3,
+.profile-stat h2,
+.profile-stat h3 {
+  color: var(--cream) !important;
+}
+
+
+/* Profile card text */
+
+.profile-card p,
+.profile-card span,
+.profile-card label,
+.profile-section p,
+.profile-section span,
+.profile-stat p,
+.profile-stat span,
+.profile-info p {
+  color: var(--light-green) !important;
+}
+
+
+/* Profile numbers */
+
+.profile-stat strong,
+.profile-stat b,
+.stat-number {
+  color: var(--cream) !important;
+}
+
+
+/* Profile labels */
+
+.stat-label,
+.profile-stat .label {
+  color: var(--gold-light) !important;
+}
+
+
+/* =========================================================
+   DASHBOARD CARDS
+   ========================================================= */
+
+.streak-card,
+.momentum-card,
+.mission-card,
+.dashboard-card,
+.stat-card {
+  background: var(--green-2) !important;
+  color: var(--cream) !important;
+
+  border: 1px solid rgba(201, 221, 207, 0.12) !important;
+}
+
+
+/* Dashboard card headings */
+
+.streak-card h1,
+.streak-card h2,
+.streak-card h3,
+.momentum-card h1,
+.momentum-card h2,
+.momentum-card h3,
+.dashboard-card h1,
+.dashboard-card h2,
+.dashboard-card h3,
+.stat-card h1,
+.stat-card h2,
+.stat-card h3 {
+  color: var(--cream) !important;
+}
+
+
+/* Dashboard card text */
+
+.streak-card p,
+.momentum-card p,
+.dashboard-card p,
+.stat-card p {
+  color: var(--light-green) !important;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.primary-btn,
+.primary-button {
+  background: var(--green-5) !important;
+
+  color: var(--cream) !important;
+
+  border: 1px solid rgba(231, 200, 120, 0.18) !important;
+}
+
+.primary-btn:hover,
+.primary-button:hover {
+  background: var(--green-6) !important;
+  color: #ffffff !important;
+}
+
+
+.secondary-btn,
+.secondary-button {
+  background: transparent !important;
+
+  color: var(--cream) !important;
+
+  border: 1px solid rgba(244, 234, 216, 0.65) !important;
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a {
+  color: var(--light-green) !important;
+}
+
+a:hover {
+  color: var(--cream) !important;
+}
+
+
+/* =========================================================
+   SMALL LABELS
+   ========================================================= */
+
+small,
+.label,
+.kicker,
+.eyebrow,
+.section-kicker,
+.card-label,
+.meta {
+  color: var(--gold-light) !important;
+}
+
+
+/* =========================================================
+   ICON BOXES
+   ========================================================= */
+
+.icon-box,
+.icon-circle,
+.profile-icon,
+.stat-icon {
+  background: var(--green-4) !important;
+  color: var(--cream) !important;
+}
+
+
+/* =========================================================
+   INPUTS
+   ========================================================= */
+
+input,
+textarea,
+select {
+  background: var(--green-2) !important;
+  color: var(--cream) !important;
+
+  border: 1px solid rgba(201, 221, 207, 0.2) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--muted-green) !important;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .mission-card,
+  .challenge-card,
+  .day-card,
+  .remember-card,
+  .info-card,
+  .tip-card,
+  .profile-card,
+  .profile-section,
+  .profile-stat,
+  .streak-card,
+  .momentum-card,
+  .dashboard-card,
+  .stat-card {
+    background: var(--green-2) !important;
+  }
+
+  .mission-card li,
+  .task,
+  .task-item,
+  .task-row,
+  .checklist-item {
+    background: var(--green-4) !important;
+    color: var(--cream) !important;
+  }
+
+  .mission-card li *,
+  .task *,
+  .task-item *,
+  .task-row *,
+  .checklist-item * {
+    color: var(--cream) !important;
+  }
+}
+
+/* =========================================
+   DAY PAGES — DARK GREEN THEME FIX
+   ========================================= */
+
+/* Main mission card */
+.day-card,
+.mission-card,
+.challenge-card {
+  background: #0f3b2f !important;
+  border: 1px solid #245b49 !important;
+  color: #f6ead9 !important;
+}
+
+/* Main headings */
+.day-card h1,
+.day-card h2,
+.day-card h3,
+.mission-card h1,
+.mission-card h2,
+.mission-card h3,
+.challenge-card h1,
+.challenge-card h2,
+.challenge-card h3 {
+  color: #f6ead9 !important;
+}
+
+/* Normal description text */
+.day-card p,
+.mission-card p,
+.challenge-card p {
+  color: #d7e5d8 !important;
+}
+
+/* Mission steps — IMPORTANT */
+.day-card li,
+.mission-card li,
+.challenge-card li,
+.mission-step,
+.task-item,
+.step {
+  background: #174d3d !important;
+  color: #f6ead9 !important;
+  border: 1px solid #28644f !important;
+}
+
+/* Text INSIDE mission steps */
+.day-card li *,
+.mission-card li *,
+.challenge-card li *,
+.mission-step *,
+.task-item *,
+.step * {
+  color: #f6ead9 !important;
+}
+
+/* Step numbers */
+.day-card li span,
+.mission-card li span,
+.challenge-card li span {
+  color: #e5b75a !important;
+}
+
+/* Little direction / remember card */
+.direction-card,
+.remember-card,
+.little-direction,
+.day-note {
+  background: #245b49 !important;
+  color: #f6ead9 !important;
+  border: 1px solid #36735d !important;
+}
+
+.direction-card *,
+.remember-card *,
+.little-direction *,
+.day-note * {
+  color: #f6ead9 !important;
+}
+
+/* Small labels */
+.day-card small,
+.mission-card small,
+.challenge-card small {
+  color: #e5b75a !important;
+}
+
+/* Badges */
+.day-card .badge,
+.mission-card .badge,
+.challenge-card .badge {
+  background: #dfe9d9 !important;
+  color: #12382d !important;
+}
+
+/* Buttons / action areas */
+.day-card button,
+.mission-card button,
+.challenge-card button {
+  background: #d9e8d5 !important;
+  color: #12382d !important;
+  border: none;
+}
+
+/* Links */
+.day-card a,
+.mission-card a,
+.challenge-card a {
+  color: #e5c978 !important;
+}
+
+/* =====================================================
+   ABTALKS — FINAL DASHBOARD OVERRIDE
+   ===================================================== */
+
+.dashboard-page {
+  background: #043222 !important;
+  color: #F6E9D9 !important;
+}
+
+/* Cards */
+
+.dashboard-page .card,
+.dashboard-page .streak-card,
+.dashboard-page .momentum-card,
+.dashboard-page .mission-card,
+.dashboard-page .progress-card,
+.dashboard-page .insight-card,
+.dashboard-page .achievement-card {
+  background: #0B4A38 !important;
+  color: #F6E9D9 !important;
+  border-color: rgba(246, 233, 217, 0.16) !important;
+}
+
+
+/* Headings */
+
+.dashboard-page h1,
+.dashboard-page h2,
+.dashboard-page h3,
+.dashboard-page h4 {
+  color: #F6E9D9 !important;
+}
+
+
+/* Body text */
+
+.dashboard-page p {
+  color: #F6E9D9 !important;
+}
+
+
+/* Small labels */
+
+.dashboard-page .small-text {
+  color: #F6E9D9 !important;
+}
+
+
+/* =====================================================
+   STREAK
+   ===================================================== */
+
+.dashboard-page .streak-number {
+  color: #F6E9D9 !important;
+  background: transparent !important;
+}
+
+.dashboard-page .streak-number span {
+  color: #DDE6D7 !important;
+}
+
+.dashboard-page .streak-days span {
+  background: #145A45 !important;
+  color: #F6E9D9 !important;
+}
+
+.dashboard-page .streak-days .done {
+  background: #043222 !important;
+  color: #F6E9D9 !important;
+}
+
+.dashboard-page .streak-days .today {
+  background: #8EB69B !important;
+  color: #043222 !important;
+}
+
+
+/* =====================================================
+   MOMENTUM
+   ===================================================== */
+
+.dashboard-page .momentum-card {
+  background: #145A45 !important;
+}
+
+.dashboard-page .momentum-score {
+  background: #F6E9D9 !important;
+  color: #043222 !important;
+  border-color: #8EB69B !important;
+}
+
+
+/* Momentum tracking line */
+
+.dashboard-page .momentum-bar {
+  background: #DDE6D7 !important;
+}
+
+.dashboard-page .momentum-bar div {
+  background: #043222 !important;
+}
+
+
+/* +8% */
+
+.dashboard-page .momentum-insight span {
+  background: #DDE6D7 !important;
+  color: #043222 !important;
+}
+
+.dashboard-page .momentum-insight p {
+  color: #F6E9D9 !important;
+}
+
+
+/* =====================================================
+   TODAY'S MISSION
+   ===================================================== */
+
+.dashboard-page .mission-card {
+  background: #0B4A38 !important;
+}
+
+.dashboard-page .time-badge {
+  background: #DDE6D7 !important;
+  color: #043222 !important;
+}
+
+.dashboard-page .mission-tags span {
+  background: #145A45 !important;
+  color: #F6E9D9 !important;
+  border-color: #5F8F78 !important;
+}
+
+
+/* =====================================================
+   CONTINUE MISSION
+   ===================================================== */
+
+.dashboard-page .mission-button {
+  background: #043222 !important;
+  color: #F6E9D9 !important;
+  border: 1px solid #8EB69B !important;
+}
+
+.dashboard-page .mission-button span {
+  color: #F6E9D9 !important;
+}
+
+.dashboard-page .mission-button:hover {
+  background: #0B4A38 !important;
+  color: #F6E9D9 !important;
+}
+
+
+/* =====================================================
+   60-DAY PROGRESS
+   ===================================================== */
+
+.dashboard-page .progress-card {
+  background: #0B4A38 !important;
+}
+
+.dashboard-page .progress {
+  background: #DDE6D7 !important;
+}
+
+.dashboard-page .progress-fill {
+  background: #043222 !important;
+}
+
+.dashboard-page .progress-footer {
+  color: #F6E9D9 !important;
+}
+
+
+/* =====================================================
+   INSIGHT
+   ===================================================== */
+
+.dashboard-page .insight-card {
+  background: #145A45 !important;
+  color: #F6E9D9 !important;
+}
+
+.dashboard-page .insight-card h3 {
+  color: #F6E9D9 !important;
+}
+
+.dashboard-page .insight-card p {
+  color: #F6E9D9 !important;
+}
+
+.dashboard-page .insight-icon {
+  background: #F6E9D9 !important;
+  color: #043222 !important;
+}
+
+
+/* =====================================================
+   ACHIEVEMENTS
+   ===================================================== */
+
+.dashboard-page .achievement-card {
+  background: #0B4A38 !important;
+  color: #F6E9D9 !important;
+}
+
+.dashboard-page .achievement-card strong {
+  color: #F6E9D9 !important;
+}
+
+.dashboard-page .achievement-card small {
+  color: #DDE6D7 !important;
+}
+
+.dashboard-page .achievement-card.locked {
+  background: #083A2D !important;
+}
+
+
+/* =====================================================
+   PROFILE DOT
+   ===================================================== */
+
+.dashboard-page .profile-dot {
+  background: #F6E9D9 !important;
+  color: #043222 !important;
+}
+
+/* =========================================
+   DASHBOARD SIZE + LAYOUT FIX
+   ========================================= */
+
+.dashboard-page {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 40px 24px 80px;
+}
+
+.dashboard-header,
+.dashboard-page > .card,
+.dashboard-page > .insight-card,
+.dashboard-page > .achievements-section {
+  width: min(900px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+/* Keep cards from becoming excessively tall */
+.dashboard-page > .card {
+  margin-bottom: 20px;
+}
+
+/* Consistent spacing between sections */
+.dashboard-page > .insight-card {
+  margin-bottom: 28px;
+}
+
+.dashboard-page > .achievements-section {
+  margin-bottom: 40px;
+}
+
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .dashboard-page {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .dashboard-header,
+  .dashboard-page > .card,
+  .dashboard-page > .insight-card,
+  .dashboard-page > .achievements-section {
+    width: min(900px, 100%);
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 650px) {
+  .dashboard-page {
+    padding: 24px 16px 60px;
+  }
+
+  .dashboard-header,
+  .dashboard-page > .card,
+  .dashboard-page > .insight-card,
+  .dashboard-page > .achievements-section {
+    width: 100%;
+  }
+}
+
+/* =========================================
+   DAY 1 — START BUILDING CARD
+   ========================================= */
+
+.start-card {
+  background: #0B4A38 !important;
+  color: #F6E9D9 !important;
+  border: 1px solid rgba(246, 233, 217, 0.16) !important;
+  border-radius: 24px;
+}
+
+.start-card h2 {
+  color: #F6E9D9 !important;
+}
+
+.start-card p {
+  color: #F6E9D9 !important;
+}
+
+.start-card .small-text {
+  color: #F6E9D9 !important;
+}
+
+
+/* 01 icon */
+
+.start-card .start-icon {
+  background: #F6E9D9 !important;
+  color: #043222 !important;
+}
+
+
+/* Start Building button */
+
+.start-card .mission-button {
+  background: #043222 !important;
+  color: #F6E9D9 !important;
+  border: 1px solid #8EB69B !important;
+}
+
+.start-card .mission-button span {
+  color: #F6E9D9 !important;
+}
+
+.start-card .mission-button:hover {
+  background: #145A45 !important;
+  color: #F6E9D9 !important;
+}
+
+/* PROFILE — GOLD CONNECTION BOXES */
+
+.profile-page .connection-card,
+.profile-page .social-card,
+.profile-page .connect-card {
+  background: #D8B45A !important;
+  color: #043222 !important;
+  border: 1px solid #D8B45A !important;
+}
+
+/* Everything inside the gold boxes */
+.profile-page .connection-card h3,
+.profile-page .connection-card h4,
+.profile-page .connection-card p,
+.profile-page .connection-card span,
+.profile-page .connection-card strong,
+.profile-page .social-card h3,
+.profile-page .social-card h4,
+.profile-page .social-card p,
+.profile-page .social-card span,
+.profile-page .social-card strong,
+.profile-page .connect-card h3,
+.profile-page .connect-card h4,
+.profile-page .connect-card p,
+.profile-page .connect-card span,
+.profile-page .connect-card strong {
+  color: #043222 !important;
+}
+
+/* Connect button inside gold box */
+.profile-page .connection-card button,
+.profile-page .social-card button,
+.profile-page .connect-card button {
+  background: #043222 !important;
+  color: #F6E9D9 !important;
+  border: 1px solid #043222 !important;
+}
+
+/* Number/icon square inside gold box */
+.profile-page .connection-card .step-number,
+.profile-page .connection-card .number,
+.profile-page .connection-card .connection-number {
+  background: #F6E9D9 !important;
+  color: #043222 !important;
 }

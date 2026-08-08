@@ -1,0 +1,628 @@
+/* =========================================
+   DAY PAGE — ABTALKS DARK GREEN THEME
+   ========================================= */
+
+.day-page {
+  min-height: 100vh;
+  background: #062f26;
+  color: #f6e9d9;
+  padding: 48px 20px 80px;
+}
+
+.day-page > section {
+  width: min(680px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- HEADER ---------- */
+
+.day-header {
+  margin-bottom: 42px;
+}
+
+.back-link {
+  display: inline-block;
+  color: #d7e5d8;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 42px;
+}
+
+.back-link:hover {
+  color: #e5b75a;
+}
+
+.day-number {
+  color: #e5b75a;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.day-header h1 {
+  color: #f6e9d9;
+  font-size: clamp(48px, 8vw, 76px);
+  line-height: 0.98;
+  letter-spacing: -3px;
+  margin: 0 0 22px;
+}
+
+.day-header .subtitle {
+  color: #c8d9cc;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 580px;
+}
+
+/* ---------- COMMON CARD ---------- */
+
+.day-page .card {
+  background: #0f3b30;
+  border: 1px solid #245b49;
+  border-radius: 28px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+}
+
+/* ---------- MISSION ---------- */
+
+.mission-overview {
+  padding: 34px;
+  margin-bottom: 22px;
+}
+
+.mission-meta {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.mission-meta span {
+  background: #dfe9d9;
+  color: #12382d;
+  padding: 7px 12px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.mission-overview h2 {
+  color: #f6e9d9;
+  margin: 0 0 12px;
+  font-size: 26px;
+}
+
+.mission-overview > p {
+  color: #c8d9cc;
+  line-height: 1.7;
+  margin-bottom: 26px;
+}
+
+/* ---------- REQUIREMENTS ---------- */
+
+.requirements {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.requirements > div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 16px;
+  border-radius: 12px;
+  background: #174d3d;
+  border: 1px solid #28644f;
+}
+
+.requirements > div > span {
+  color: #e5b75a;
+  font-size: 12px;
+  font-weight: 800;
+  min-width: 22px;
+}
+
+.requirements p {
+  margin: 0;
+  color: #f6e9d9;
+  font-weight: 650;
+}
+
+/* ---------- DIRECTION ---------- */
+
+.direction-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 28px;
+  margin-bottom: 58px;
+
+  background: #174d3d;
+  border: 1px solid #28644f;
+  border-radius: 28px;
+}
+
+.direction-icon {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+
+  display: grid;
+  place-items: center;
+
+  background: #dfe9d9;
+  color: #b68b32;
+  border-radius: 10px;
+}
+
+.direction-card .small-text {
+  color: #e5b75a;
+  margin: 0 0 8px;
+}
+
+.direction-card h3 {
+  color: #f6e9d9;
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
+.direction-card > div > p:last-child {
+  color: #c8d9cc;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ---------- SUBMISSION ---------- */
+
+.submission-section {
+  margin-bottom: 40px;
+}
+
+.section-title-row {
+  margin-bottom: 22px;
+}
+
+.small-text {
+  color: #e5b75a;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.section-title-row h2 {
+  color: #f6e9d9;
+  margin: 7px 0 0;
+  font-size: 32px;
+}
+
+/* ---------- FORM ---------- */
+
+.submission-form {
+  padding: 32px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  color: #f6e9d9;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.form-group > span {
+  color: #a9c5b3;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  box-sizing: border-box;
+
+  background: #092f27;
+  color: #f6e9d9;
+
+  border: 1px solid #36735d;
+  border-radius: 12px;
+
+  padding: 14px 15px;
+  font: inherit;
+  outline: none;
+}
+
+.input-field::placeholder {
+  color: #76988a;
+}
+
+.input-field:focus {
+  border-color: #e5b75a;
+  box-shadow: 0 0 0 3px rgba(229, 183, 90, 0.12);
+}
+
+/* ---------- CHECKBOX ---------- */
+
+.proof-check {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+
+  color: #d7e5d8;
+  font-size: 14px;
+  line-height: 1.5;
+
+  margin-bottom: 24px;
+}
+
+.proof-check input {
+  margin-top: 4px;
+  accent-color: #e5b75a;
+}
+
+/* ---------- BUTTON ---------- */
+
+.mission-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  background: #e5b75a;
+  color: #12382d;
+
+  border: none;
+  border-radius: 12px;
+
+  padding: 14px 20px;
+
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.mission-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(229, 183, 90, 0.2);
+}
+
+.submit-button {
+  width: 100%;
+}
+
+/* ---------- SUCCESS ---------- */
+
+.success-card {
+  padding: 36px;
+  text-align: center;
+}
+
+.success-icon {
+  width: 54px;
+  height: 54px;
+  margin: 0 auto 18px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  background: #dfe9d9;
+  color: #174d3d;
+
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.success-card .small-text {
+  color: #e5b75a;
+}
+
+.success-card h2 {
+  color: #f6e9d9;
+  margin: 8px 0 12px;
+}
+
+.success-card > p:not(.small-text) {
+  color: #c8d9cc;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* ---------- FOOTER NOTE ---------- */
+
+.day-footer-note {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 20px 0;
+
+  color: #c8d9cc;
+}
+
+.day-footer-note > span {
+  font-size: 25px;
+}
+
+.day-footer-note strong {
+  color: #f6e9d9;
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 600px) {
+  .day-page {
+    padding: 30px 16px 60px;
+  }
+
+  .day-header h1 {
+    font-size: 48px;
+    letter-spacing: -2px;
+  }
+
+  .mission-overview,
+  .submission-form,
+  .success-card {
+    padding: 22px;
+  }
+
+  .direction-card {
+    padding: 22px;
+  }
+}
+
+/* =========================================
+   DAY 1 — START BUILDING CTA
+   ========================================= */
+
+.start-card {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+
+  margin-top: 28px;
+  padding: 28px;
+
+  background: #174d3d;
+  border: 1px solid #36735d;
+  border-radius: 26px;
+
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+.start-icon {
+  width: 52px;
+  height: 52px;
+
+  flex-shrink: 0;
+
+  display: grid;
+  place-items: center;
+
+  background: #e5b75a;
+  color: #12382d;
+
+  border-radius: 14px;
+
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.start-card > div:nth-child(2) {
+  flex: 1;
+}
+
+.start-card .small-text {
+  color: #e5b75a;
+  margin: 0 0 7px;
+}
+
+.start-card h2 {
+  color: #f6e9d9;
+  margin: 0 0 7px;
+  font-size: 25px;
+}
+
+.start-card p:not(.small-text) {
+  color: #c8d9cc;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.start-card .mission-button {
+  flex-shrink: 0;
+
+  background: #e5b75a;
+  color: #12382d;
+
+  padding: 14px 20px;
+  border-radius: 12px;
+
+  font-weight: 900;
+  text-decoration: none;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.start-card .mission-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(229, 183, 90, 0.22);
+}
+
+.start-card .mission-button span {
+  color: #12382d;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .start-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .start-card .mission-button {
+    justify-content: center;
+  }
+
+  .start-icon {
+    width: 46px;
+    height: 46px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .day-header h1 {
+    font-size: 2.4rem;
+    line-height: 1.05;
+  }
+
+  .day-header .subtitle {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .mission-overview h2,
+  .submission-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .mission-overview p,
+  .direction-card p,
+  .submission-form span {
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .requirements p {
+    font-size: 0.9rem;
+  }
+
+  .mission-tags span {
+    font-size: 0.75rem;
+  }
+
+  .mission-button {
+    font-size: 0.95rem;
+  }
+
+}
+
+/* =====================================================
+   SAVED PROOF LINKS
+===================================================== */
+
+.saved-proof {
+  margin: 24px 0;
+  padding: 18px;
+
+  border-radius: 16px;
+
+  background: rgba(216, 180, 90, 0.12);
+  border: 1px solid rgba(216, 180, 90, 0.25);
+}
+
+.saved-proof .small-text {
+  margin-bottom: 12px;
+}
+
+.saved-proof-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.proof-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px 14px;
+
+  border-radius: 10px;
+
+  background: #F6E9D9;
+  color: #043222;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 800;
+
+  transition: 0.2s ease;
+}
+
+.proof-link:hover {
+  background: #D8B45A;
+  color: #043222;
+
+  transform: translateY(-2px);
+}
+
+.proof-link span {
+  font-size: 14px;
+}
+
+/* =====================================================
+   GITHUB + LINKEDIN INPUT TEXT
+===================================================== */
+
+.input-field {
+  color: #043222 !important;
+  background: #F6E9D9 !important;
+  border: 1px solid #286553;
+}
+
+.input-field::placeholder {
+  color: #174F3D !important;
+  opacity: 0.75;
+}
+
+.input-field:focus {
+  color: #043222 !important;
+  outline: none;
+  border-color: #D8B45A;
+}
+
+.form-group label {
+  color: #F6E9D9;
+}
+
+.form-group > span {
+  color: #D8CDBD;
+}
+
+/* =====================================================
+   PROOF LINKS — COMPLETED DAY
+===================================================== */
+
+.success-card .proof-card a,
+.success-card .proof-links a,
+.success-card a[href*="github"],
+.success-card a[href*="linkedin"] {
+  background: #F6E9D9 !important;
+  color: #043222 !important;
+  border: 1px solid #F6E9D9 !important;
+}
+
+.success-card .proof-card a *,
+.success-card .proof-links a *,
+.success-card a[href*="github"] *,
+.success-card a[href*="linkedin"] * {
+  color: #043222 !important;
+}

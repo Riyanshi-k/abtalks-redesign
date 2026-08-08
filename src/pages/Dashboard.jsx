@@ -1,150 +1,194 @@
 function Dashboard() {
   return (
-    <div className="page">
+    <div className="page dashboard-page">
 
-      <section>
-
-        <p className="small-text">
-          GOOD EVENING 👋
-        </p>
-
-        <h1>
-          Welcome back,
-          <br />
-          Abhinav
-        </h1>
-
-      </section>
-
-      <section className="card">
-
-        <h2>🔥 27 Day Streak</h2>
-
-        <p className="small-text">
-          You're doing better than 92% of learners.
-        </p>
-
-      </section>
-
-      <section className="card">
-
-        <p className="small-text">
-          MOMENTUM SCORE
-        </p>
-
-        <h1 className="green">
-          92%
-        </h1>
-
-        <div className="progress">
-
-          <div
-            className="progress-fill"
-            style={{width:"92%"}}
-          ></div>
-
+      {/* Header */}
+      <section className="dashboard-header">
+        <div>
+          <p className="small-text">DAY 12 OF 60</p>
+          <h1>
+            Good morning,
+            <br />
+            Abhinav.
+          </h1>
         </div>
 
-        <p className="small-text">
+        <a href="/profile" className="profile-dot"> A</a>
+      </section>
 
-          Excellent consistency.
+      {/* Streak */}
+      <section className="streak-card card">
+        <div className="streak-main">
+          <div>
+            <p className="small-text">CURRENT STREAK</p>
+            <div className="streak-number">
+              11 <span>days</span>
+            </div>
+            <p className="streak-message">
+              You're building something that compounds.
+            </p>
+          </div>
 
-        </p>
+          <div className="streak-flame">
+            🔥
+          </div>
+        </div>
+
+        <div className="streak-days">
+          <span className="done">M</span>
+          <span className="done">T</span>
+          <span className="done">W</span>
+          <span className="done">T</span>
+          <span className="done">F</span>
+          <span className="today">S</span>
+          <span>S</span>
+        </div>
+      </section>
+
+      {/* Momentum */}
+      <section className="momentum-card card">
+
+        <div className="card-heading">
+          <div>
+            <p className="small-text">YOUR MOMENTUM</p>
+            <h2>Looking strong.</h2>
+          </div>
+
+          <div className="momentum-score">
+            92
+          </div>
+        </div>
+
+        <div className="momentum-bar">
+          <div style={{ width: "92%" }}></div>
+        </div>
+
+        <div className="momentum-insight">
+          <span>↑ 8%</span>
+          <p>
+            Your consistency is up compared with last week.
+          </p>
+        </div>
 
       </section>
 
-      <section className="card">
+      {/* Today's Mission */}
+      <section className="mission-card card">
 
-        <p className="small-text">
+        <div className="mission-top">
+          <div>
+            <p className="small-text">TODAY'S MISSION</p>
+            <h2>Build a Weather App</h2>
+          </div>
 
-          TODAY'S MISSION
-
-        </p>
-
-        <h2>
-
-          Build a Weather App
-
-        </h2>
-
-        <p>
-
-          Create a responsive weather dashboard using any API.
-
-        </p>
-
-        <br />
-
-        <button className="primary-btn">
-
-          Continue →
-
-        </button>
-
-      </section>
-
-      <section className="card">
-
-        <p className="small-text">
-
-          OVERALL PROGRESS
-
-        </p>
-
-        <div className="progress">
-
-          <div
-            className="progress-fill"
-            style={{width:"45%"}}
-          ></div>
-
+          <span className="time-badge">
+            ~45 min
+          </span>
         </div>
 
         <p>
-
-          27 of 60 Days Completed
-
+          Create a responsive weather dashboard that lets users
+          search for a city and view current weather conditions.
         </p>
+
+        <div className="mission-tags">
+          <span>API</span>
+          <span>Responsive</span>
+          <span>Frontend</span>
+        </div>
+
+        <a
+          href="/day/12"
+          className="mission-button"
+        >
+          Continue mission
+          <span>→</span>
+        </a>
 
       </section>
 
-      <section className="card">
+      {/* Challenge Progress */}
+      <section className="progress-card card">
 
-        <p className="small-text">
+        <div className="card-heading">
+          <div>
+            <p className="small-text">60-DAY JOURNEY</p>
+            <h2>12 days in.</h2>
+          </div>
 
-          ACHIEVEMENTS
+          <strong>20%</strong>
+        </div>
 
-        </p>
+        <div className="progress">
+          <div
+            className="progress-fill"
+            style={{ width: "20%" }}
+          ></div>
+        </div>
 
-        <br />
-
-        <p>🏆 Consistency King</p>
-
-        <p>⭐ Week Warrior</p>
-
-        <p>🚀 Public Builder</p>
+        <div className="progress-footer">
+          <span>12 completed</span>
+          <span>48 remaining</span>
+        </div>
 
       </section>
 
-      <section className="card">
+      {/* Growth Insight */}
+      <section className="insight-card">
 
-        <p className="small-text">
+        <div className="insight-icon">
+          ✦
+        </div>
 
-          LEADERBOARD
+        <div>
+          <p className="small-text">A SMALL INSIGHT</p>
 
-        </p>
+          <h3>
+            You're past the hardest part.
+          </h3>
 
-        <h2>
+          <p>
+            You've shown up for 11 consecutive days.
+            Keep the rhythm going and your next milestone
+            is just 9 days away.
+          </p>
+        </div>
 
-          #143
+      </section>
 
-        </h2>
+      {/* Achievements */}
+      <section className="achievements-section">
 
-        <p>
+        <div className="section-title-row">
+          <div>
+            <p className="small-text">YOUR WINS</p>
+            <h2>Achievements</h2>
+          </div>
 
-          Top 8%
+          <span className="view-all">View all</span>
+        </div>
 
-        </p>
+        <div className="achievement-grid">
+
+          <div className="achievement-card">
+            <span>🔥</span>
+            <strong>Week One</strong>
+            <small>7 day streak</small>
+          </div>
+
+          <div className="achievement-card">
+            <span>🚀</span>
+            <strong>Public Builder</strong>
+            <small>10 posts shared</small>
+          </div>
+
+          <div className="achievement-card locked">
+            <span>🏆</span>
+            <strong>30 Day Club</strong>
+            <small>19 days to go</small>
+          </div>
+
+        </div>
 
       </section>
 

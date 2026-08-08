@@ -10,9 +10,9 @@ function Landing() {
           <span>ABTalks</span>
         </div>
 
-        <button className="secondary-btn">
+        <a href="/dashboard" className="secondary-btn">
           Log in
-        </button>
+        </a>
       </nav>
 
       <section className="hero">
@@ -35,9 +35,9 @@ function Landing() {
           India's most motivating coding challenge.
         </p>
 
-        <button className="primary-btn">
+        <a href="/day/1" className="primary-btn">
           Start Challenge →
-        </button>
+        </a>
 
       </section>
 
@@ -89,11 +89,9 @@ function Landing() {
 
         <h2>Ready?</h2>
 
-        <button className="primary-btn">
-
+        <a href="/day/1" className="primary-btn">
           Join Challenge →
-
-        </button>
+        </a>
 
       </section>
 

@@ -597,3 +597,43 @@
     align-items: flex-start;
   }
 }
+
+/* =========================================
+   FIRE / STREAK ACCENT
+   ========================================= */
+
+:root {
+  --fire-orange: #f47a2a;
+  --fire-glow: rgba(244, 122, 42, 0.35);
+}
+
+
+/* -----------------------------------------
+   ACTIVE STREAK - MOMENTUM BAR
+   ----------------------------------------- */
+
+.momentum-bar.streak-active > div {
+  background: var(--fire-orange);
+  box-shadow: 0 0 12px var(--fire-glow);
+}
+
+
+/* -----------------------------------------
+   ACTIVE STREAK TEXT
+   ----------------------------------------- */
+
+.streak-active-text {
+  color: var(--fire-orange);
+  font-weight: 700;
+}
+
+
+/* -----------------------------------------
+   60-DAY JOURNEY COMPLETE
+   ----------------------------------------- */
+
+.progress.journey-complete .progress-fill {
+  background: var(--fire-orange);
+  box-shadow: 0 0 12px var(--fire-glow);
+}
+

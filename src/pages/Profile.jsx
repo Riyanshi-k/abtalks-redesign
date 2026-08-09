@@ -118,7 +118,7 @@ function Profile() {
             </p>
 
             <h1>
-              Abhinav
+              Riyanshi
             </h1>
 
             <p className="profile-tagline">
